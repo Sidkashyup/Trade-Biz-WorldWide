@@ -157,16 +157,23 @@ export default function Home() {
       {/* Hero Section with Enhanced Animations */}
       <section className="relative w-full h-[90vh] text-white overflow-hidden">
         {/* Background Video with Enhanced Zoom and Overlay */}
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover z-0"
-          style={{ animation: "zoomSlow 20s ease-in-out infinite" }}
-        >
-          <source src="/videos/4.mp4" type="video/mp4" />
-        </video>
+      <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="absolute inset-0 w-full h-full object-cover z-0"
+  style={{ animation: "zoomSlow 20s ease-in-out infinite" }}
+  poster="https://res.cloudinary.com/dgaxalank/video/upload/v1754024754/3802790-uhd_2560_1440_30fps_xmkmvd.jpg"
+>
+  <source
+    src="https://res.cloudinary.com/dgaxalank/video/upload/v1754024754/3802790-uhd_2560_1440_30fps_xmkmvd.mp4"
+    type="video/mp4"
+  />
+</video>
+
+
+
 
         {/* Dynamic Overlay for Better Contrast */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 z-10" />
@@ -183,17 +190,10 @@ export default function Home() {
               Industrial Supplies, <br className="hidden md:inline" /> Delivered{" "}
               <span className="text-teal-400">Worldwide</span>
             </h1>
-            <p
-              className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg leading-relaxed"
-              style={{
-                animation: "fadeInUp 1s ease-out forwards",
-                animationDelay: "0.2s",
-              }}
-            >
-              Streamline your supply chain with our trusted **global sourcing**
-              and **logistics services**. Your business growth, powered by
-              reliability.
-            </p>
+         <p class="text-lg md:text-xl text-gray-200 mb-8 max-w-lg leading-relaxed">
+  Make your business more efficient with our <strong>global sourcing</strong> and <strong>logistics solutions</strong>. We simplify every step of your supply chain with dependable support and trust.
+</p>
+
             <div
               className="flex flex-wrap gap-4 md:gap-6 mb-12"
               style={{
@@ -378,7 +378,7 @@ export default function Home() {
                 ?
               </h2>
               <p className="text-xl text-gray-700 mb-16 max-w-3xl mx-auto">
-                Discover the qualities that set **Trade Biz Worldwide** apart in
+                Discover the qualities that set Trade Biz Worldwide apart in
                 the industrial supply sector and propel your business forward.
               </p>
 
@@ -469,7 +469,7 @@ export default function Home() {
             {/* Enhanced Divider */}
             <div className="w-32 h-1.5 bg-gradient-to-r from-teal-600 to-emerald-600 mx-auto mb-10 rounded-full"></div>
             <p className="text-gray-700 text-xl max-w-4xl mx-auto leading-relaxed">
-              At **Trade Biz Worldwide**, we provide a comprehensive range of
+              At Trade Biz Worldwide, we provide a comprehensive range of
               industrial products designed to meet the diverse needs of modern
               industries. From essential construction materials to precision
               tools and safety equipment, our extensive catalog ensures seamless
@@ -784,8 +784,8 @@ export default function Home() {
       </h2>
       <div className="w-32 h-1.5 bg-gradient-to-r from-teal-600 to-emerald-600 mx-auto mb-10 rounded-full"></div>
       <p className="text-gray-700 text-xl max-w-4xl mx-auto leading-relaxed">
-        Our reputation spans across **manufacturing**, **energy**,
-        **distilleries**, and **infrastructure** sectors, reflecting our
+        Our reputation spans across manufacturing, energy,
+        distilleries, and infrastructure sectors, reflecting our
         unwavering commitment to excellence and reliability in every
         partnership, big or small.
       </p>
