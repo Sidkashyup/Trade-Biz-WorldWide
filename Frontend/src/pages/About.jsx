@@ -91,7 +91,7 @@ export default function AboutUs() {
             </div>
             <div className="relative h-96 lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-102 transition-transform duration-500 animate-scale-in">
               <img
-                src="/images/about1.png"
+                src="https://res.cloudinary.com/dgaxalank/image/upload/v1754111615/about1_cy21zk.png"
                 alt="Modern Industrial Facility"
                 className="w-full h-full object-cover brightness-90 hover:brightness-100 transition-all duration-700"
                 onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/600x500/E0F2F7/004D40?text=Industrial+Facility"; }}
